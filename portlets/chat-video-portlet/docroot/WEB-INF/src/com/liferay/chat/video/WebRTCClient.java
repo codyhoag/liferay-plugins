@@ -19,6 +19,8 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
+ * Represents the WebRTC client.
+ *
  * @author Philippe Proulx
  */
 public class WebRTCClient {
