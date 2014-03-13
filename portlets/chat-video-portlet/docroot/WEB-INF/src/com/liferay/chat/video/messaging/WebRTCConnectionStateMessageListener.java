@@ -18,6 +18,9 @@ import com.liferay.portal.kernel.messaging.BaseMessageListener;
 import com.liferay.portal.kernel.messaging.Message;
 
 /**
+ * Listens for the connection states of the WebRTC managers at a regular
+ * interval.
+ *
  * @author Philippe Proulx
  */
 public class WebRTCConnectionStateMessageListener extends BaseMessageListener {
